@@ -20,7 +20,8 @@
     display: inline;
     Padding-right: 20;
     Padding-left: 100;
-    font-size: 25;
+    Padding-bottom: 15;
+    font-size: 17;
     }
 .personal-info p {
     line-height: .4;
