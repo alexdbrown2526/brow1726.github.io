@@ -1,52 +1,108 @@
-.complete {
-    background-color: RGB(50,200,150);
+html, body, h1, h2, h3, ul, ol, li, p, a {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font: inherit;
+    font-size: 100%;
 }
-.complete{
-    margin-left: 100;
-    margin-right: 100;
-    Padding:75;
+body {
+    background-color: #00b2b2;
+    color: #ffffff;
+    margin: 30px;
+    font-family: 'Ubuntu' sans-serif;
 }
-.professional-experience p {
-    padding-left: 100;
-    font-style: italic;
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
 }
-.professional-experience ul {
-    padding-left: 150;
-}
-.personal-info p {
+h2 {
+    text-align: center;
     font-size: 20px;
-}   
-.skills p {
-    display: inline;
-    Padding-right: 20;
-    Padding-left: 100;
-    font-size: 25;
-    }
-.personal-info p {
-    line-height: .4;
-    display: inline;
-    padding-right: 20
 }
-.complete h1 {
-    font-family: "Comic sans MS";
+p {
+    text-align: center;
 }
-.complete p {
-    font-family: "comic sans MS";
+.header {
+    background-color: black;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px;
+    margin-bottom: 20px;
 }
-.complete li {
-    font-family: "Comic sans MS";
+.header h2 {
+    padding-bottom: 5px;
 }
-.professional-experience h3 {
-    line-height: .25;
-    padding-left: 40
-}
-.professional-experience h2 {
-    padding-left: 40;
-}
-.skills {
-    border-bottom: 2px solid;
-    border-top: 2px solid
-}
-.profile p {
+.header p {
+    padding-bottom: 5px;
     font-size: 18px;
 }
+.skills {
+    background-color: black;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px;
+}
+.skills li {
+    text-align: center;
+    list-style: none;
+    padding-bottom: 3px;
+}
+.skills h2 {
+    margin: 5px;
+}
+.work-experience {
+    background-color: #A7A7B3;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.thanks {
+    padding: 15px;
+    font-size: 30px;
+}
+.job1 {
+    background-color: black;
+    width: 800;
+    margin: 20px auto 0 auto;
+    border-radius: 25px 25px 0 0;
+}
+.job1 li {
+    margin-left: 30;
+    padding: 5px;
+}
+.job2 {
+    background-color: black;
+    width: 800;
+    margin: 20px auto 0 auto;
+}
+.job2 li {
+    margin-left: 30px;
+    padding: 5px;
+}
+.job3 {
+    background-color: black;
+    width: 800;
+    margin: 20px auto 0 auto;
+}
+.job3 li {
+    margin-left: 30px;
+    padding: 5px;
+}
+.job4 {
+    background-color: black;
+    width: 800;
+    margin: 20px auto 0 auto;
+}
+.job4 li {
+    margin-left: 30px;
+    padding: 5px;
+}
+.job5 {
+    background-color: black;
+    width: 800;
+    margin: 20px auto 0 auto;
+    border-radius: 0 0 25px 25px;
+}
+.job5 li {
+    margin-left: 30px;
+    padding: 5px;
+    
+    
